@@ -15,6 +15,7 @@ public class OnlineOrdersDAO {
      * Constructor.
      * @param mapper instance of DynamoDBMapper to use for DDB calls
      */
+
     public OnlineOrdersDAO(DynamoDBMapper mapper) {
         this.mapper = mapper;
     }
